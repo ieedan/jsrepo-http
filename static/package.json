@@ -1,0 +1,29 @@
+{
+	"name": "std",
+	"version": "2.1.0",
+	"packageManager": "pnpm@9.12.3",
+	"type": "module",
+	"scripts": {
+		"test": "vitest",
+		"coverage": "vitest run --coverage",
+		"format": "biome format --write",
+		"lint": "biome lint --write",
+		"check": "biome check",
+		"check:types": "tsc --noEmit",
+		"docs:generate": "typedoc",
+		"build:registry": "jsrepo build"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/node": "^22.10.3",
+		"@vitest/coverage-v8": "^2.1.8",
+		"jsrepo": "^1.23.2",
+		"typedoc": "^0.27.6",
+		"typescript": "^5.7.2",
+		"vitest": "^2.1.8"
+	},
+	"dependencies": {
+		"ansi-regex": "^6.1.0",
+		"typedoc-material-theme": "^1.2.0"
+	}
+}

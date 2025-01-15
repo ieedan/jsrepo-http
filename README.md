@@ -1,7 +1,2 @@
-# jsrepo-http-reg
-A jsrepo registry served from your own server.
-
-Currently working on live server:
-```
-http://localhost:5500/
-```
+# jsrepo-http
+A demo of a jsrepo registry hosted on your own domain.

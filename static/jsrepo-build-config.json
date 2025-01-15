@@ -1,0 +1,10 @@
+{
+	"$schema": "https://unpkg.com/jsrepo@1.25.0/schemas/project-config.json",
+	"dirs": ["./src"],
+	"includeBlocks": [],
+	"includeCategories": [],
+	"doNotListBlocks": [],
+	"doNotListCategories": [],
+	"excludeDeps": [],
+	"preview": true
+}
